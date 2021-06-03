@@ -9,8 +9,6 @@
     font-family: 'Inter', sans-serif;
 }
 
-
-
 body {
     background-color: hsl(233, 47%, 7%);
     color: hsl(0, 0%, 100%);
@@ -18,9 +16,6 @@ body {
     width: 100%;
     
 }
-
-/* font-family: 'Inter', sans-serif; */
-/* font-family: 'Lexend Deca', sans-serif; */
 
 .container{
     max-width: var(--container-width);
@@ -45,10 +40,8 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-
     background-blend-mode: multiply;  
 }
 
@@ -128,7 +121,6 @@ li strong {
         max-height: fit-content;
         display: grid;
         grid-template-columns: 1fr 1fr;
-
     }
 
     #image-wrapper {
@@ -140,7 +132,6 @@ li strong {
         width: 100%;
         padding: 0;
         margin: 0;
-
     }
 
     #text-wrapper {
@@ -150,7 +141,6 @@ li strong {
         padding-left: 1.5em;
         padding-top: 1em;
         padding-bottom: 1em;
-        /* padding: 1em; */
     }
 
     h1{
@@ -159,8 +149,7 @@ li strong {
 
     ul{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        
+        grid-template-columns: 1fr 1fr 1fr; 
     }
 
     
